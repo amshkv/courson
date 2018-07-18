@@ -337,7 +337,19 @@
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       line-height: 1.2;
-      margin-top: 28px; }
+      margin-top: 28px;
+      position: relative; }
+      .speaker__person-text:before {
+        content: '';
+        width: 24px;
+        height: 24px;
+        background-color: #f1f1f1;
+        -webkit-transform: rotate(-45deg) translate(-50%, -50%);
+        -ms-transform: rotate(-45deg) translate(-50%, -50%);
+        transform: rotate(-45deg) translate(-50%, -50%);
+        position: absolute;
+        top: -13px;
+        left: 51.5%; }
   .speaker__info {
     width: 408px;
     margin-top: 62px;
